@@ -53,36 +53,47 @@ a {
 
 /*--About--------------------------------------------------*/
 #logo {
-    padding-top: -1%;
-    padding-bottom: -40%;
-    border: none;
+    width: 25%;
+    height: 25%;
+    margin-top: 6%;
 }
 
-h1 {
-    display: flex;
-    font-size: 2.6rem;
-    margin-left: -9.5rem;
+img {
+    width: 100%;
+    height: auto;
 }
 
-#aboutPara {
+#aboutDiv {
     display: flex;
-    margin-top: ;
-    padding-left: 35%;
-    padding-right: 30%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
 }
 
 #about {
     background: #0C4160;    
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    margin-top: 10%;
+    margin-left: 0%;
     width: 100%;
     height: 100vh;
-    margin-top: -8%;
     color: #C3CEDA;
+    overflow: hidden;
+}
+
+h1 {
+    display: flex;
+    margin-left: -8%;
+    font-size: 2.6rem;
+}
+
+#aboutPara {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1%;
+    margin-left: 35%;
+    margin-right: 25%;
 }
 
 /*--Projects--------------------------------------------*/
@@ -110,8 +121,7 @@ hr {
 
 .row {
     display: flex;
-    flex-wrap: 
-    width: 100%;
+    flex-wrap: ;
     justify-content: space-around;
     padding-top: 3%;  
     padding-right: 10%
