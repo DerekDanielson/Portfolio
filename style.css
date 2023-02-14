@@ -116,6 +116,7 @@ h2 {
 hr {
     height: .2rem;
     background-color: black;
+    margin-right: 80%;
     border: none;
 }
 
