@@ -16,7 +16,7 @@ body {
     margin: 0;
     background: #0C4160; 
     height: 100vh;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
 /*--Navbar---------------------------------------------*/
