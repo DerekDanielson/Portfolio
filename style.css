@@ -99,9 +99,8 @@ h1 {
 /*--Projects--------------------------------------------*/
 #projects {
     background: #738FA7;
-    position: absolute;
     align-items: flex-start;
-    width: 100vw;
+    width: auto;
     height: 100vh;
     border: none;
     margin: 0;
@@ -138,7 +137,8 @@ hr {
 
 .project-box {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: auto;
 }
