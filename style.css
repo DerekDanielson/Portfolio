@@ -109,6 +109,7 @@ h1 {
 
 h2 {
     font-size: 8rem;
+    padding-top: 10%;
 }
 
 hr {
@@ -122,9 +123,7 @@ hr {
     display: flex;
     flex-wrap: ;
     justify-content: center;
-    align-items: center;
-    padding-top: 3%;  
-    padding-right: 10%
+    margin-top: -10%;  
 }
 
 #project-grid {
@@ -137,7 +136,7 @@ hr {
 
 .project-box {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     height: auto;
