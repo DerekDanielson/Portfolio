@@ -68,7 +68,7 @@ img {
 }
 
 #about {
-    background: #0C4160;    
+      
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,7 +99,6 @@ h1 {
 /*--Projects--------------------------------------------*/
 #projects {
     background: #738FA7;
-    align-items: flex-start;
     width: auto;
     height: 100vh;
     border: none;
@@ -136,6 +135,7 @@ hr {
 
 .project-box {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     width: 100%;
@@ -162,8 +162,7 @@ h2 {
 }
 
 /*--Contact----------------------------------------*/
-#contact {
-    background: #0C4160;    
+#contact {  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -185,6 +184,25 @@ span {
     padding-top: 2%;
 }
 
-@media (max-width: 700px) {
+/*--Media Queries---------------------------------*/
+@media (max-width: 1060px) {
+    body {
+        background: #0C4160;
+    }
+
+    #home {
+        display: flex;
+    }
+
+    #navbar {
+        display: flex;
+        margin-right: 50%;
+    }
+
+    #projects {
+        background: #0C4160;
+        display: flex;
+    }
     
+
 }
