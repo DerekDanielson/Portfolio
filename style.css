@@ -203,6 +203,7 @@ span {
 
     #projects {
         display: flex;
+        background: red;
     }
     
 
