@@ -23,7 +23,6 @@ body {
 #navbar {
     display: flex;
     justify-content: flex-end;
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -184,23 +183,25 @@ span {
     padding-top: 2%;
 }
 
+
+
 /*--Media Queries---------------------------------*/
 @media (max-width: 1060px) {
     body {
-        background: #0C4160;
+        background: red;
     }
 
     #home {
         display: flex;
+        width: 100vw;
     }
 
     #navbar {
         display: flex;
-        margin-right: 50%;
+        align-items: center;
     }
 
     #projects {
-        background: #0C4160;
         display: flex;
     }
     
