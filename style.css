@@ -23,9 +23,7 @@ body {
 #navbar {
     display: flex;
     justify-content: flex-end;
-    top: 0;
-    left: 0;
-    width: 100%;
+    width: 100vw;
     background: #071330;
 }
 
@@ -188,7 +186,7 @@ span {
 /*--Media Queries---------------------------------*/
 @media (max-width: 1060px) {
     body {
-        background: red;
+        background: #0C4160;
     }
 
     #home {
@@ -199,11 +197,12 @@ span {
     #navbar {
         display: flex;
         align-items: center;
+        width: 100%;
     }
 
     #projects {
         display: flex;
-        background: red;
+        background: #0C4160;
     }
     
 
