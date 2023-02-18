@@ -13,31 +13,37 @@
     <title>DevDerek</title>
 </head>
 <body>
+
 <!--NAVBAR-------------------------------------------------------->
-  <div id="home">
-    <nav id="navbar">
-        <ul class="nav-list">
-          <li>
-            <a href="#home">About</a>
+<header class="header">
+  <nav class="navbar">
+      <a href="#" class="nav-logo"><img src="\images\DD-short.png" alt="DD logo" id="logo"></a>
+      <ul class="nav-menu">
+          <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
           </li>
-          <li>
-            <a href="#projects">Projects</a>
+          <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
           </li>
-          <li>
-            <a href="#contact">Contact</a>
+          <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
           </li>
-        </ul>
-      </nav>
-  </div>
+      </ul>
+      <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </div>
+  </nav>
+</header>
+
 <!--ABOUT PAGE---------------------------------------------------->
-<!--<div id="aboutDiv">-->
-<div id="logo">
-  <img src="/DD-short.png" alt="DD logo">
-</div>
-  
+<div id="aboutDiv">
     <section id="about">
+      <div id="para">
         <h1>Hi I'm Derek Danielson.</h1>
         <p id="aboutPara">I'm a front-end developer with a passion for building beautiful and functional websites.  I have experience in HTML, CSS and JavaScript.</p>
+      </div>
     </section>
 </div>
 <!--PROJECT SECTION----------------------------------------------->
@@ -48,28 +54,28 @@
       <hr>
     </div>      
         <div id="project-grid">
-          <div class="row">
+          <!--<div class="row">-->
             <div class="project-box">
               <a href="https://github.com/DerekDanielson/AlbuquerquePayroll">
-                <img src="/apaLogo.png" alt="Albuquerque Payroll Association">
+                <img src="images\apaLogo.png" alt="Albuquerque Payroll Association" class="image-box">
               </a>
             </div>
           
             <div class="project-box">
               <a href="https://github.com/DerekDanielson/Connect4">
-                <img src="/connect4.png" alt="Connect 4 screenshot">
+                <img src="images\connect4.png" alt="Connect 4 screenshot" class="image-box">
               </a>
             </div>
             
             <div class="project-box">
               <a href="https://github.com/DerekDanielson/Memory-Game">
-                <img src="/memoryGame.png" alt="Memory game screenshot">
+                <img src="images\memoryGame.png" alt="Memory game screenshot" class="image-box">
               </a>
             </div>
             
             <div class="project-box">
               <a href="https://github.com/DerekDanielson/NeonSnakeButtons">
-                <img src="/neonbuttons.png" alt="Neon buttons screenshot">
+                <img src="images\neonbuttons.png" alt="Neon buttons screenshot" class="image-box">
               </a>
             </div>
           </div>  
@@ -83,5 +89,6 @@
         <a href="https://github.com/DerekDanielson/" class="fa fa-github"></a>
         <a href="https://www.linkedin.com/in/devderek/" class="fa fa-linkedin"></a>
     </section>    
+    <script src="app.js"></script>
 </body>
 </html>
