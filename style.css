@@ -234,4 +234,8 @@ span {
     #aboutPara {
         font-size: 2.5rem;
     }
+
+    #para {
+        margin-top: -2%;
+    }
 }
