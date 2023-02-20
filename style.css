@@ -227,5 +227,11 @@ span {
         transform: translateY(-8px) rotate(-45deg);
     }
 
+    h1 {
+        font-size: 3rem;
+    }
 
+    #aboutPara {
+        font-size: 2.5rem;
+    }
 }
